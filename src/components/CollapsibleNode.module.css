@@ -1,0 +1,17 @@
+.li {
+  width: fit-content;
+  cursor: pointer;
+}
+.expanded {
+  display: block;
+}
+.collapsed {
+  display: none;
+}
+.noselection {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+}
