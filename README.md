@@ -18,9 +18,13 @@ npm run dev
 
 http://localhost:3000 shows a dynamically generated Tree View
 
+- Dynamic Tree View data is provided by the logic in public/api/v1.0/data/randomTreeView.js
+
 http://localhost:3000?static=1 shows a predefined static Tree View
 
-# Components' hierarchy
+- Static Tree View data is loaded from public/api/v1.0/data/staticTreeView.json
+
+# Component hierarchy
 
 - index.html
   - main
