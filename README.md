@@ -1,4 +1,4 @@
-# Simple template logic for dynamically generated multi-level Tree View hierarchy
+# A simple template logic for dynamically generated multi-level Tree View hierarchy
 
 React 19 + JS + Vite 5.x with .env parameters
 
