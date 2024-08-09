@@ -5,7 +5,9 @@ React 19 + JS + Vite 5.x with .env parameters
 Number of tree nodes can be managed using three parameters in the supplied .env file
 
 VITE_ROOT_ITEMS, number of root items in the Tree View, default is 2
+
 VITE_MAX_ITEMS, number of all items in the Tree View, default is 30
+
 VITE_ITEM_NAME_PREFIX, all node names start with this value, default is "Element"
 
 # Getting started
