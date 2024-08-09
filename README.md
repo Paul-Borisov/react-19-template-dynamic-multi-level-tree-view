@@ -35,7 +35,7 @@ http://localhost:3000?static=1 shows a predefined static Tree View
             - ContainerNode
               - CollapsibleNode (loads optional ContainerNode as children)
 
-# A valid example of applying the "use" hoc to fetch data in a client-side component
+# A valid example of applying "use" hoc to fetch data in a client-side component
 
 Have a look at TreeViewContentStatic.use.jsx
 
