@@ -42,13 +42,13 @@ Have a look at TreeViewContentStatic.use.jsx
 - In order to load TreeViewContentStatic.use.js, which uses "use" hoc to fetch data, you'll need to set VITE_EXPERIMENTAL=true in .env (default)
 - Otherwise, if VITE_EXPERIMENTAL=false, the logic will load TreeViewContentStatic.hooks.js, which uses a classic useEffect to fetch data.
 
-The documentation on React 19 states:
+The documentation for React 19 states:
 
-**use does not support promises created in render.**
+**use does not support promises created during render.**
 
-If you try to pass a promise created in render to use, React will warn:
+If you try to pass a Promise created within render to **use**, React will issue a warning:
 
 **A component was suspended by an uncached promise. Creating promises inside a Client Component or hook is not yet supported, except via a Suspense-compatible library or framework.
 To fix, you need to pass a promise from a suspense powered library or framework that supports caching for promises. In the future we plan to ship features to make it easier to cache promises in render.**
 
-A simple solution is to wrap your fetch promise into useMemo. If you do so, the warning will not appear in console.
+A simple solution is to wrap your fetch promise into **useMemo**. By doing so, the warning will not appear in the console.
